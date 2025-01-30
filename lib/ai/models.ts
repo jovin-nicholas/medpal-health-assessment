@@ -9,6 +9,12 @@ export interface Model {
 
 export const models: Array<Model> = [
   {
+    id: 'gemini-1.5-flash',
+    label: 'Gemini 1.5 Flash',
+    apiIdentifier: 'gemini-1.5-flash',
+    description: 'For short, snappy responses',
+  },
+  {
     id: 'gpt-4o-mini',
     label: 'GPT 4o mini',
     apiIdentifier: 'gpt-4o-mini',
@@ -22,4 +28,4 @@ export const models: Array<Model> = [
   },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'gpt-4o-mini';
+export const DEFAULT_MODEL_NAME: string = 'gemini-1.5-flash';
