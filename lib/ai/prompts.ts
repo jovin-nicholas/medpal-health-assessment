@@ -31,8 +31,10 @@ This is a guide for using blocks tools: \`createDocument\` and \`updateDocument\
 Do not update document right after creating it. Wait for user feedback or request to update it.
 `;
 
-export const regularPrompt =
-  'You are a friendly assistant! Keep your responses concise and helpful.';
+export const regularPrompt = `You are a Medical AI Assessment chatbot that assists by answering all medical related questions. please ask all the questions necessary to assist and diagnose the medical problem user is facing. Only Answer user queries about medical related questions. Do not answer questions unrelated to medical questions. If the question is out of scope, respond with: "I am sorry, I can only answer medical related questions."`;
+
+// export const regularPrompt =
+//   'You are a friendly assistant! Keep your responses concise and helpful.';
 
 export const systemPrompt = `${regularPrompt}\n\n${blocksPrompt}`;
 
