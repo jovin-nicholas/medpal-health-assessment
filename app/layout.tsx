@@ -7,8 +7,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Next.js Chatbot Template',
-  description: 'Next.js chatbot template using the AI SDK.',
+  title: 'MedPal Health Chatbot ',
+  description: 'Next.js chatbot using Vercel AI SDK and Gemini AI.',
 };
 
 export const viewport = {
