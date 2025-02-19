@@ -3,7 +3,7 @@
 Engage with a smart, multi-lingual medical chatbot that understands your symptoms, provides tailored assessments, and connects you to the right healthcare professional.
 
 <p align="center">
-  An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.
+  An Open-Source AI Chatbot Built With Next.js and the AI SDK by Vercel.
 </p>
 
 ## Model Providers
