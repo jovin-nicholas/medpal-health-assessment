@@ -75,6 +75,12 @@ export const VercelIcon = ({ size = 17 }) => {
   );
 };
 
+export const CustomIcon = ({ size = 16 }) => {
+  return (
+    <img src="/images/healthiai.png" alt="HealthIAI" width={size} height={size} />
+  );
+};
+
 export const GitIcon = () => {
   return (
     <svg
@@ -1119,3 +1125,16 @@ export const FullscreenIcon = ({ size = 16 }: { size?: number }) => (
     ></path>
   </svg>
 );
+
+export const MicIcon = ({ size = 16 }: { size?: number }) => {
+  return (
+    <svg
+      height={size}
+      viewBox="0 0 24 24"
+      width={size}
+      fill="currentColor"
+    >
+      <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm4.3-3c0 2.53-1.79 4.71-4.3 4.95V19h3v2H9v-2h3v-3.05c-2.51-.24-4.3-2.42-4.3-4.95H5c0 3.07 2.13 5.64 5 6.32V21h4v-3.68c2.87-.68 5-3.25 5-6.32h-2.7z"/>
+    </svg>
+  );
+};
