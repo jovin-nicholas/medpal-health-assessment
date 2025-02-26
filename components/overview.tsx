@@ -18,7 +18,7 @@ export const Overview = () => {
           <CustomIcon size={64} />
         </p>
           <b>
-            Welcome to MedPal health assessment chatbot.
+            Welcome to MedAI health assessment chatbot.
           </b>
           <p>
             Engage with a smart, multi-lingual medical chatbot that understands your symptoms, 
